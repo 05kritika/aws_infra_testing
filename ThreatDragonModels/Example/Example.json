@@ -10,7 +10,136 @@
       {
         "title": "Test",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 410,
+                "y": 170
+              },
+              "angle": 0,
+              "id": "f58d475f-49a3-4f2c-8847-994b595c1088",
+              "z": 1,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Confidentiality Breach",
+                  "type": "Information disclosure",
+                  "description": "bjdghuhid",
+                  "mitigation": "kjbdhjcldkj"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "title": "jkdhic",
+                  "description": "lk;djclkdj",
+                  "mitigation": "nlkdjcld"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 0"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 150,
+                "y": 60
+              },
+              "angle": 0,
+              "id": "5350a6f1-88b3-415f-97ee-ac4e2558c58b",
+              "z": 3,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "kldjljn",
+                  "mitigation": "xbnsjkhxk",
+                  "title": "nlkdnclk"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 410,
+                "y": 190
+              },
+              "target": {
+                "x": 110,
+                "y": 100
+              },
+              "vertices": [
+                {
+                  "x": 70,
+                  "y": 60
+                },
+                {
+                  "x": 60,
+                  "y": 90
+                },
+                {
+                  "x": 160,
+                  "y": 110
+                },
+                {
+                  "x": 140,
+                  "y": 110
+                }
+              ],
+              "id": "5f67e84a-7349-46fc-b10f-033ad4cec6b3",
+              "z": 4,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ],
     "reviewer": "Riddhi"
